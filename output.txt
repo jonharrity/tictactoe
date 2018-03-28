@@ -1,0 +1,788 @@
+Output from 10 games;
+AI Wins: 4
+Ties: 6
+AI Losses: 0
+
+
+-- -- -- --
+
+
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Your turn. Current board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+ |x| 
+-----
+ | | 
+Computer moved to (2, 0)
+
+Your turn. Current board:
+ | |o
+-----
+ |x| 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | |o
+-----
+ |x| 
+-----
+ |x| 
+Computer moved to (1, 0)
+
+Your turn. Current board:
+ |o|o
+-----
+ |x| 
+-----
+ |x| 
+Enter x value: Enter y value: 
+Computer move; board:
+x|o|o
+-----
+ |x| 
+-----
+ |x| 
+Computer moved to (2, 2)
+
+Your turn. Current board:
+x|o|o
+-----
+ |x| 
+-----
+ |x|o
+Enter x value: Enter y value: 
+Computer move; board:
+x|o|o
+-----
+ |x|x
+-----
+ |x|o
+Computer moved to (0, 1)
+
+Your turn. Current board:
+x|o|o
+-----
+o|x|x
+-----
+ |x|o
+Enter x value: Enter y value: 
+x|o|o
+-----
+o|x|x
+-----
+x|x|o
+
+Nobody won! You both are just too good...
+
+-------
+
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Computer move; board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Computer moved to (0, 1)
+
+Your turn. Current board:
+ | | 
+-----
+o| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+x| | 
+-----
+o| | 
+-----
+ | | 
+Computer moved to (2, 0)
+
+Your turn. Current board:
+x| |o
+-----
+o| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+x| |o
+-----
+o| |x
+-----
+ | | 
+Computer moved to (1, 1)
+
+Your turn. Current board:
+x| |o
+-----
+o|o|x
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+x| |o
+-----
+o|o|x
+-----
+x| | 
+Computer moved to (1, 0)
+
+Your turn. Current board:
+x|o|o
+-----
+o|o|x
+-----
+x| | 
+Enter x value: Enter y value: 
+Computer move; board:
+x|o|o
+-----
+o|o|x
+-----
+x|x| 
+Computer moved to (2, 2)
+
+x|o|o
+-----
+o|o|x
+-----
+x|x|o
+
+Nobody won! You both are just too good...
+
+-------
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Computer move; board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Computer moved to (0, 1)
+
+Your turn. Current board:
+ | | 
+-----
+o| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+o| | 
+-----
+ | |x
+Computer moved to (0, 2)
+
+Your turn. Current board:
+ | | 
+-----
+o| | 
+-----
+o| |x
+Enter x value: Enter y value: 
+Computer move; board:
+x| | 
+-----
+o| | 
+-----
+o| |x
+Computer moved to (1, 1)
+
+Your turn. Current board:
+x| | 
+-----
+o|o| 
+-----
+o| |x
+Enter x value: Enter y value: 
+Computer move; board:
+x| | 
+-----
+o|o|x
+-----
+o| |x
+Computer moved to (2, 0)
+
+x| |o
+-----
+o|o|x
+-----
+o| |x
+
+Computer won! Better luck next time ;(
+x| |o
+-----
+o|o|x
+-----
+o| |x
+
+-------
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Your turn. Current board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+x| | 
+-----
+ | | 
+Computer moved to (0, 0)
+
+Your turn. Current board:
+o| | 
+-----
+x| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+o| |x
+-----
+x| | 
+-----
+ | | 
+Computer moved to (1, 1)
+
+Your turn. Current board:
+o| |x
+-----
+x|o| 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+o| |x
+-----
+x|o| 
+-----
+ | |x
+Computer moved to (2, 1)
+
+Your turn. Current board:
+o| |x
+-----
+x|o|o
+-----
+ | |x
+Enter x value: Enter y value: 
+Computer move; board:
+o| |x
+-----
+x|o|o
+-----
+ |x|x
+Computer moved to (0, 2)
+
+Your turn. Current board:
+o| |x
+-----
+x|o|o
+-----
+o|x|x
+Enter x value: Enter y value: 
+o|x|x
+-----
+x|o|o
+-----
+o|x|x
+
+Nobody won! You both are just too good...
+
+-------
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Computer move; board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Computer moved to (0, 1)
+
+Your turn. Current board:
+ | | 
+-----
+o| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+x| | 
+-----
+o| | 
+-----
+ | | 
+Computer moved to (2, 0)
+
+Your turn. Current board:
+x| |o
+-----
+o| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+x| |o
+-----
+o|x| 
+-----
+ | | 
+Computer moved to (2, 2)
+
+Your turn. Current board:
+x| |o
+-----
+o|x| 
+-----
+ | |o
+Enter x value: Enter y value: 
+Computer move; board:
+x| |o
+-----
+o|x|x
+-----
+ | |o
+Computer moved to (0, 2)
+
+Your turn. Current board:
+x| |o
+-----
+o|x|x
+-----
+o| |o
+Enter x value: Enter y value: 
+Computer move; board:
+x| |o
+-----
+o|x|x
+-----
+o|x|o
+Computer moved to (1, 0)
+
+x|o|o
+-----
+o|x|x
+-----
+o|x|o
+
+Nobody won! You both are just too good...
+
+-------
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Computer move; board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Computer moved to (0, 1)
+
+Your turn. Current board:
+ | | 
+-----
+o| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+o|x| 
+-----
+ | | 
+Computer moved to (2, 0)
+
+Your turn. Current board:
+ | |o
+-----
+o|x| 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ |x|o
+-----
+o|x| 
+-----
+ | | 
+Computer moved to (1, 2)
+
+Your turn. Current board:
+ |x|o
+-----
+o|x| 
+-----
+ |o| 
+Enter x value: Enter y value: 
+Computer move; board:
+ |x|o
+-----
+o|x|x
+-----
+ |o| 
+Computer moved to (0, 2)
+
+Your turn. Current board:
+ |x|o
+-----
+o|x|x
+-----
+o|o| 
+Enter x value: Enter y value: 
+Computer move; board:
+x|x|o
+-----
+o|x|x
+-----
+o|o| 
+Computer moved to (2, 2)
+
+x|x|o
+-----
+o|x|x
+-----
+o|o|o
+
+Computer won! Better luck next time ;(
+x|x|o
+-----
+o|x|x
+-----
+o|o|o
+
+-------
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Your turn. Current board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Enter x value: Enter 0, 1, or 2 for x: Enter y value: 
+Computer move; board:
+ | | 
+-----
+ |x| 
+-----
+ | | 
+Computer moved to (2, 0)
+
+Your turn. Current board:
+ | |o
+-----
+ |x| 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | |o
+-----
+ |x| 
+-----
+ |x| 
+Computer moved to (1, 0)
+
+Your turn. Current board:
+ |o|o
+-----
+ |x| 
+-----
+ |x| 
+Enter x value: Some invalid input was supplied; x and y must be integers between 0 and 2 inclusive and should not be occupied yet on the board.
+Enter x value: Some invalid input was supplied; x and y must be integers between 0 and 2 inclusive and should not be occupied yet on the board.
+Enter x value: Enter y value: 
+Computer move; board:
+x|o|o
+-----
+ |x| 
+-----
+ |x| 
+Computer moved to (2, 2)
+
+Your turn. Current board:
+x|o|o
+-----
+ |x| 
+-----
+ |x|o
+Enter x value: Enter y value: 
+Computer move; board:
+x|o|o
+-----
+x|x| 
+-----
+ |x|o
+Computer moved to (2, 1)
+
+x|o|o
+-----
+x|x|o
+-----
+ |x|o
+
+Computer won! Better luck next time ;(
+x|o|o
+-----
+x|x|o
+-----
+ |x|o
+
+-------
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Your turn. Current board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+ | | 
+-----
+ | |x
+Computer moved to (1, 1)
+
+Your turn. Current board:
+ | | 
+-----
+ |o| 
+-----
+ | |x
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+ |o| 
+-----
+x| |x
+Computer moved to (1, 2)
+
+Your turn. Current board:
+ | | 
+-----
+ |o| 
+-----
+x|o|x
+Enter x value: Enter y value: 
+Computer move; board:
+ |x| 
+-----
+ |o| 
+-----
+x|o|x
+Computer moved to (0, 1)
+
+Your turn. Current board:
+ |x| 
+-----
+o|o| 
+-----
+x|o|x
+Enter x value: Enter y value: Some invalid input was supplied; x and y must be integers between 0 and 2 inclusive and should not be occupied yet on the board.
+Enter x value: Enter y value: 
+Computer move; board:
+ |x| 
+-----
+o|o|x
+-----
+x|o|x
+Computer moved to (2, 0)
+
+Your turn. Current board:
+ |x|o
+-----
+o|o|x
+-----
+x|o|x
+Enter x value: Enter y value: 
+x|x|o
+-----
+o|o|x
+-----
+x|o|x
+
+Nobody won! You both are just too good...
+
+-------
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Your turn. Current board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+x| | 
+-----
+ | | 
+Computer moved to (0, 0)
+
+Your turn. Current board:
+o| | 
+-----
+x| | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+o| |x
+-----
+x| | 
+-----
+ | | 
+Computer moved to (1, 1)
+
+Your turn. Current board:
+o| |x
+-----
+x|o| 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+o| |x
+-----
+x|o| 
+-----
+ | |x
+Computer moved to (2, 1)
+
+Your turn. Current board:
+o| |x
+-----
+x|o|o
+-----
+ | |x
+Enter x value: Enter y value: 
+Computer move; board:
+o|x|x
+-----
+x|o|o
+-----
+ | |x
+Computer moved to (1, 2)
+
+Your turn. Current board:
+o|x|x
+-----
+x|o|o
+-----
+ |o|x
+Enter x value: Enter y value: 
+o|x|x
+-----
+x|o|o
+-----
+x|o|x
+
+Nobody won! You both are just too good...
+
+-------
+
+Welcome to tic tac toe! You are playing against a computer using the minimax algorithm with alpha/beta pruning. You are 'x'; the computer is 'o'.
+
+Your turn. Current board:
+ | | 
+-----
+ | | 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ | | 
+-----
+ |x| 
+-----
+ | | 
+Computer moved to (2, 0)
+
+Your turn. Current board:
+ | |o
+-----
+ |x| 
+-----
+ | | 
+Enter x value: Enter y value: 
+Computer move; board:
+ |x|o
+-----
+ |x| 
+-----
+ | | 
+Computer moved to (1, 2)
+
+Your turn. Current board:
+ |x|o
+-----
+ |x| 
+-----
+ |o| 
+Enter x value: Enter y value: 
+Computer move; board:
+x|x|o
+-----
+ |x| 
+-----
+ |o| 
+Computer moved to (2, 2)
+
+Your turn. Current board:
+x|x|o
+-----
+ |x| 
+-----
+ |o|o
+Enter x value: Enter y value: 
+Computer move; board:
+x|x|o
+-----
+ |x| 
+-----
+x|o|o
+Computer moved to (2, 1)
+
+x|x|o
+-----
+ |x|o
+-----
+x|o|o
+
+Computer won! Better luck next time ;(
+x|x|o
+-----
+ |x|o
+-----
+x|o|o
+
